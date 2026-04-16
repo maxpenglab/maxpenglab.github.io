@@ -19,7 +19,7 @@ draft: false
 
 ## 效果展示
 
-{{< video src="videos/interior_demo.mp4" >}}
+{{< video src="/videos/interior_demo.mp4" >}}
 
 ## 落地成果
 - 游戏内所有视觉可见室内空间均使用此方案
