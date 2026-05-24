@@ -11,9 +11,9 @@ params:
   
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/maxpenglab"
     - name: email
-      url: "mailto:max_peng@formail.com"
+      url: "mailto:maxpeng.tech@outlook.com"
 
   ShowReadingTime: false
   ShowShareButtons: false
