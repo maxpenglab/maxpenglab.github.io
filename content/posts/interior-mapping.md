@@ -1,5 +1,5 @@
 ---
-title: "假室内渲染效果研发"
+title: "假室内渲染"
 date: 2024-10-01
 tags: ["渲染", "Shader", "专利"]
 cover:
