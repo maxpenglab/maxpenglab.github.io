@@ -2,6 +2,7 @@
 title: "假室内渲染"
 date: 2024-10-01
 tags: ["渲染", "Shader", "专利"]
+categories: ["渲染与引擎"]
 cover:
   image: "images/interior/cover.png"
   alt: "假室内渲染效果"

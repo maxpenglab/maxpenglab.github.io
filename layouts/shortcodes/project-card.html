@@ -1,0 +1,19 @@
+{{- $page := site.GetPage (.Get 0) }}
+{{- if $page }}
+<article class="post-entry project-card">
+  {{- if $page.Params.cover.image }}
+  <figure class="entry-cover">
+    <img loading="lazy" src="{{ $page.Params.cover.image | absURL }}" alt="{{ $page.Title }}">
+  </figure>
+  {{- end }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ $page.Title }}</h2>
+  </header>
+  {{- with $page.Summary }}
+  <div class="entry-content">
+    <p>{{ . | plainify }}</p>
+  </div>
+  {{- end }}
+  <a class="entry-link" aria-label="查看详情: {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
+</article>
+{{- end }}

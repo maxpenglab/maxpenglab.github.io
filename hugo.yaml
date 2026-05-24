@@ -3,6 +3,7 @@ languageCode: "zh-cn"
 title: "彭洋 | 技术美术作品集"
 theme: "PaperMod"
 paginate: 10
+mainSections: ["posts"]
 
 params:
   homeInfoParams:
